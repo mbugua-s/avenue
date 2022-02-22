@@ -1,0 +1,141 @@
+h2
+{
+    font-size: 65px;
+    margin-bottom: 45px;
+}
+
+form
+{
+    background-color: rgb(41, 41, 41);
+    width: 85%;
+    font-size: 19px;
+    margin: auto;
+    border: 1px solid white;
+    line-height: 50px;
+}
+
+form > div
+{
+    margin: 100px 20px;
+}
+
+input[type = "mail"], input[type = "password"], input[type = "text"]
+{
+    position: absolute;
+    left: 48%;
+    margin-top: 14px;
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    color: black;
+}
+
+form > div label
+{
+    position: absolute;
+    right: 53%;
+}
+
+h3
+{
+    font-size: 40px;
+    color: orange
+}
+
+input[type = "submit"], main a
+{
+    margin-left: auto;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type = "submit"]:hover, main a:hover
+{
+    border: 2px solid white;
+    color: white;
+}
+
+label[for = "reg_male"]
+{
+    left: 42%;
+}
+
+label[for = "reg_female"]
+{
+    left: 51%;
+}
+
+#r_male
+{
+    position: absolute;
+    top: 98%;
+    left: 47%;
+}
+
+#r_female
+{
+    position: absolute;
+    top: 98%;
+    left: 56%;
+}
+
+form p
+{
+    margin: 10px;
+}
+
+em
+{
+    font-size: 14px;
+    position: absolute;
+    left: 64%;
+    color: yellow;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content/Box */
+.modal-content
+{
+background-color: #fefefe;
+margin: 15% auto; /* 15% from the top and centered */
+padding: 20px;
+border: 1px solid #888;
+width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close
+{
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover, .close:focus
+{
+color: black;
+text-decoration: none;
+cursor: pointer;
+}

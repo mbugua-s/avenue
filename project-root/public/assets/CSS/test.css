@@ -1,0 +1,10 @@
+.card-group
+{
+    margin: auto;
+    color: red;
+}
+
+.card-group img
+{
+    max-width: 15%;
+}
