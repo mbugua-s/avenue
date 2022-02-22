@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body
+{
+    margin-top: 200px;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../Images/background image 55.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header
+{
+    position: absolute;
+    background-color: rgba(27, 26, 26, 0.85);
+    color: white;
+    top: 0px;
+    height: 10em;
+    width: 100%;
+    right: 1px;
+    margin-bottom: 100px;
+}
+
+h1
+{
+    font-size: 120px;
+    display: inline;
+}
+
+footer
+{
+    position: absolute;
+    background-color: rgba(20, 20, 20, 0.849);
+    height: 13em;
+    margin-top: 130px;
+    width: 100%;
+    right: 1px;
+
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+footer p
+{
+    padding-left: 10px;
+}
+
+footer a:hover
+{
+    color: turquoise;
+}
+
+.copyright
+{
+    font-size: 13px;
+    text-align: center;
+    top: 1%;
+}
+
+header a
+{
+    text-decoration: none;
+    color: turquoise;
+    position: relative;
+    display: inline-block;
+    font-size: 21px;
+    bottom: 13%;
+}
+
+
+header a:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+.home
+{
+    left: 22%;
+}
+
+.user
+{
+    left: 17%;
+    font-size: 21px;
+    bottom: 13%;
+}
+
+.menu
+{
+    left: 1%;
+}
+
+.history
+{
+    left: 3%;
+}
+
+.logout
+{
+    text-decoration: none;
+    color: rgb(211, 9, 9);
+    left: 18%;
+}

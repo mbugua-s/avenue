@@ -1,0 +1,78 @@
+h2
+{
+    font-size: 65px;
+    text-align: center;
+}
+
+fieldset
+{
+    align-self: center;
+    padding: 100px 5px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: rgba(27, 26, 26, 0.541);
+    max-width: 80em;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 50px;
+    color: turquoise;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+form
+{
+    line-height: 30px;
+}
+
+select
+{
+    font-size: 19px;
+}
+
+input[type = checkbox]
+{
+    zoom: 1.2;
+}
+
+input[type = radio]
+{
+    zoom: 1.2;
+}
+
+.button
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    color: black;
+    background-color: turquoise;
+    padding: 15px 24px;
+    text-align: center;
+    display: inline;
+    
+}
+
+.button:hover
+{
+    color: #11504d;
+    background-color: white;
+}
+
+input[name = reset]
+{
+    color: white;
+    background-color: #11504d;
+}
+

@@ -1,0 +1,30 @@
+label
+{
+    font-size: 20px;
+}
+
+input[type = "text"]
+{
+    zoom: 1.2;
+    margin-left: 10px;
+}
+
+th
+{
+    color: turquoise;
+}
+
+h3
+{
+    font-size: 65px;
+    margin-top: 25px;
+}
+
+table, tr, td, th
+{
+    align-self: center;
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,53 @@
+._button
+{
+    background-color: #11504d;
+    border: none;
+    color: white;
+    padding: 14px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    margin-top: 600px;
+    cursor: pointer;
+}
+
+._button:hover
+{
+    color: #11504d;
+    background-color: white;
+}
+
+
+
+h4
+{
+    color: #11504d;
+    font-size: 30px;
+}
+
+img
+{
+    max-width: 20%;
+}
+
+.edit_label
+{
+    font-size: 18px;
+    position: absolute;
+    left: 37%;
+}
+
+.edit_input[type = "text"], .edit_input[type = "number"], .edit_input[type = "file"]
+{
+    zoom: 1.2;
+    position: absolute;
+    left: 50%;
+    margin-bottom: 25px;
+}
+
+p
+{
+    font-size: 23px;
+}
+
