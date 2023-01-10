@@ -1,0 +1,146 @@
+h2
+{
+    font-size: 65px;
+    margin-bottom: 45px;
+}
+
+form
+{
+    background-color: rgb(41, 41, 41);
+    width: 85%;
+    font-size: 19px;
+    margin: auto;
+    border: 1px solid white;
+    line-height: 50px;
+}
+
+form > div
+{
+    margin: 100px 20px;
+}
+
+input[type = "mail"], input[type = "password"], input[type = "text"], select, input[type = "number"]
+{
+    position: absolute;
+    left: 48%;
+    margin-top: 14px;
+    width: 200px;
+    display: inline-block;
+    height: 20px;
+    color: black;
+    zoom: 1.2;
+    font-size: 13px;
+}
+
+input[type = "file"]
+{
+    position: absolute;
+    left: 48%;
+    margin-top: 14px;
+    display: inline-block;
+    color: orange;
+    /* zoom: 1.2; */
+    font-size: 15px;
+    height: 4em;
+    padding: 3px;
+}
+
+textarea
+{
+    position: absolute;
+    left: 48%;
+    margin-top: 14px;
+    display: inline-block;
+    color: black;
+    zoom: 1.2;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+form > div label
+{
+    position: absolute;
+    right: 53%;
+}
+
+h3
+{
+    font-size: 40px;
+    color: orange
+}
+
+input[type = "submit"], main a
+{
+    margin-left: auto;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type = "submit"]:hover, main a:hover
+{
+    border: 2px solid white;
+    color: white;
+}
+
+label[for = "reg_male"]
+{
+    left: 42%;
+}
+
+label[for = "r_customer"]
+{
+    left: 40%;
+}
+
+label[for = "reg_female"], label[for = "r_admin"]
+{
+    left: 51%;
+}
+
+input[type = "radio"]
+{
+    position: relative;
+    right: 20px;
+    margin-left: 130px;
+}
+
+form p
+{
+    margin: 10px;
+}
+
+em
+{
+    font-size: 14px;
+    position: absolute;
+    left: 64%;
+    color: yellow;
+}
+
+option
+{
+    color: black;
+}
+
+optgroup
+{
+    color: black;
+    font-weight: bold;
+}
+
+.current_image
+{
+    /* position: absolute; */
+    left: 48%;
+    margin-top: 14px;
+    width: 200px;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+}

@@ -1,0 +1,126 @@
+main
+{
+    max-width: 90%;
+}
+
+h2
+{
+    color: orange;
+}
+
+.card
+{
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.card-body
+{
+    color: black;
+    background-color: grey;
+}
+
+.card-img-top
+{
+    max-height: 280px;
+}
+
+h4
+{
+    font-size: 15px;
+}
+
+select, option
+{
+    color: black;
+}
+
+.card.col-12.col-sm-6.col-md-4
+{
+    width: 18rem;
+}
+
+h3
+{
+    font-size: 2.5rem;
+}
+
+select
+{
+    width: 9.5rem;
+}
+
+.filter_label
+{
+    font-size: 1.2rem;
+}
+
+.filter_label_select
+{
+    display: inline-block;
+    margin: 1.5rem 1.2rem 2rem;
+}
+
+.price
+{
+    color: rgb(80, 16, 80);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn
+{
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.card-body > .btn
+{
+    color: rgb(1, 26, 80);
+    border-color: rgb(1, 26, 80);
+}
+
+.btn:hover
+{
+    color: white;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.no_products
+{
+    background-color: rgb(63, 63, 63);
+    margin-left: 110px;
+    margin-right: 110px;
+    border: 2px solid rgb(17, 2, 59);
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.modal-content
+{
+    background-color: rgb(22, 25, 32);
+}
+
+.modal-body input
+{
+    color: black;
+}
+
+.toast-header, .toast-body
+{
+    background-color: orange;
+    color: black;
+}
+
+.me-auto
+{
+    color: black;
+}

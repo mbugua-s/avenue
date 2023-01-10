@@ -1,0 +1,98 @@
+header a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+header a:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+main p
+{
+    font-size: 18px;
+}
+
+img
+{
+    max-width: 30%;
+    display: inline;
+}
+
+.get_started
+{
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.get_started:hover
+{
+    color: white;
+    border-color: white;
+}
+
+
+h2
+{
+    font-size: 65px;
+    margin-bottom: 45px;
+}
+
+.article
+{
+    display: inline-block;
+    background-color: rgb(41, 41, 41);
+    max-width: 85%;
+    margin-bottom: 50px;
+    height: 450px;
+    padding: 40px 5px 25px;
+    border: 2px solid grey;
+}
+
+.article p
+{
+    max-width: 40%;
+    display: inline-block;
+    margin-right: 600px;
+    margin-top: 30px;
+}
+
+.article h3
+{
+    font-size: 35px;
+    color: orange;
+}
+
+.article img
+{
+    position: relative;
+    bottom: 35%;
+    left: 28%;
+}
+
+.header_link
+{
+    font-size: 17.5px;
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+}
+
+.login
+{
+    left: 78%;
+}
+
+.register
+{
+    left: 88%;
+}

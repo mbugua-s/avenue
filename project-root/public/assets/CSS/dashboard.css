@@ -1,0 +1,51 @@
+.card
+{
+    background-color: rgb(63, 63, 63);
+    margin: 30px auto;
+    border: 2px solid rgb(59, 2, 59);
+}
+
+.img-fluid.rounded-start
+{
+    max-height: 400px;
+}
+
+h2
+{
+    font-size: 68px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h5
+{
+    font-size: 42px;
+    color: orange;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.card p
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.btn
+{
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover
+{
+    color: white;
+    border-color: white;
+}

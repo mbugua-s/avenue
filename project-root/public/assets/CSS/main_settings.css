@@ -1,0 +1,68 @@
+.btn, button
+{
+    text-decoration: none;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.btn:hover, button
+{
+    color: white;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.main_buttons
+{
+    background-color: rgb(63, 63, 63);
+    margin-left: 110px;
+    margin-right: 110px;
+    border: 2px solid rgb(17, 2, 59);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2
+{
+    font-size: 68px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.label_button_group h3
+{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 810px;
+}
+
+.label_button_group
+{
+    margin-top: 40px;
+    margin-left: 175px;
+}
+
+.modal-content
+{
+    background-color: rgb(22, 25, 32);
+}
+
+.modal-body input[type = "mail"], .modal-body select, .modal-body option, .modal-body optgroup
+{
+    width: 240px;
+    color: black;
+}
+
+.modal-body optgroup
+{
+    font-weight: bold;
+}

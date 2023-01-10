@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+body
+{
+    background: url("../Images/abstract1.jpg") rgba(0, 0, 0, 0.55);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+main
+{
+    text-align: center;
+    margin-top: 160px;
+}
+
+header
+{
+    background-color: rgb(37, 1, 37);
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 95px;
+}
+
+header h1
+{
+    font-size: 60px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+h2, h3
+{
+    font-weight: 600;
+}
+
+h2
+{
+    font-size: 65px;
+    margin-bottom: 45px;
+    color: orange;
+}
+
+footer
+{
+    background-color: rgb(22, 25, 32);
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    left: 0%;
+    height: 135px;
+}
+
+.link-primary
+{
+    color: white;
+}
+
+.link-primary:hover
+{
+    color: orange;
+}
+
+.copyright
+{
+    text-align: center;
+    font-size: 11px;
+}
+
+.username
+{
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+    right: 19%;
+    font-size: 18px;
+}
+
+.setting_btn_outline
+{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    right: 6%;
+    text-decoration: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    padding: 14px 2px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.offcanvas.offcanvas-end
+{
+    background-color: rgb(22, 25, 32);
+    max-width: 250px;
+}
+
+.offcanvas-header h3
+{
+    font-size: 37px;
+}
+
+.offcanvas-body svg
+{
+    margin-bottom: 4px;
+}
+
+.offcanvas-body .svg_link
+{
+    padding: 0px;
+    line-height: 1rem;
+}
+
+.svg_link p
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-size: 0.95rem;
+}
+
+.offcanvas-body a
+{
+    text-decoration: none;
+    padding: 0px;
+}
+
+.dashboard
+{
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+    right: 28%;
+    font-size: 19px;
+}
+
+.dashboard:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.cart_icon_size
+{
+    position: absolute;
+    display: inline-block;
+    top: 34%;
+    right: 11.6%;
+    text-decoration: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    /* padding: 14px 28px; */
+    margin-bottom: 15px;
+}
+
+.bi-cart
+{
+    zoom: 1.25;
+    cursor: pointer;
+}
+
+
+.cart_size
+{
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 1px;
+}
